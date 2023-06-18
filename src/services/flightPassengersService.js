@@ -42,8 +42,7 @@ const getFlightPassengers = async (flightId) => {
         return {code: 200, data: flightInfo};
         
     }catch(err){
-        console.error(err);
-        return ({code: 404, data: {} });
+        return ({code: 404, data: {}})
     }
     
 }
